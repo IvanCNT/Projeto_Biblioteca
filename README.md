@@ -4,7 +4,7 @@ Este repositório contém os scripts SQL desenvolvidos para a **Experiência Pr�
 
 ## Estrutura dos Arquivos
 
-* `create_tables.sql`: Estrutura do banco de dados (DDL).
+* `0_create_tables.sql`: Estrutura do banco de dados (DDL).
 * `1_inserts.sql`: Comandos para povoar o banco com dados iniciais (DML).
 * `2_selects.sql`: Consultas exemplificando relatórios e junções (JOINs).
 * `3_update_delete.sql`: Scripts de atualização cadastral e exclusão de registros.
