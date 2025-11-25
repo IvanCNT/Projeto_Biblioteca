@@ -10,10 +10,10 @@ INSERT INTO Funcionario (nome, cargo) VALUES
 
 -- 2. Inserindo Alunos
 INSERT INTO Aluno (nome, matricula, email, telefone) VALUES 
-('Lucas', '2023001', 'lucas.p@uni.edu.br', '11999991111'),
-('Fernanda', '2023002', 'fernanda.l@uni.edu.br', '11988882222'),
-('João', '2023003', 'joao.silva@uni.edu.br', '11977773333'),
-('Mariana', '2023004', 'mari.costa@uni.edu.br', '11966664444');
+('Lucas', '2023001', 'lucas@uni.edu.br', '11999991111'),
+('Fernanda', '2023002', 'fernanda@uni.edu.br', '11988882222'),
+('João', '2023003', 'joao@uni.edu.br', '11977773333'),
+('Mariana', '2023004', 'mari@uni.edu.br', '11966664444');
 
 -- 3. Inserindo Livros
 INSERT INTO Livro (titulo, autor, editora, ano_publicacao, status) VALUES 
@@ -35,3 +35,4 @@ INSERT INTO Emprestimo (id_aluno, id_livro, id_funcionario, data_retirada, data_
 -- Empréstimo Ativo (Livro 5 - Algoritmos com Aluno 1)
 
 (1, 5, 2, '2025-11-22', '2025-12-07', NULL);
+
